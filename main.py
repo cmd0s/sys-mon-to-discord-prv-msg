@@ -14,7 +14,7 @@ def setup_logging():
     f_handler.setLevel(logging.INFO)
 
     # Create formatter and add it to the handlers
-    formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s')
+    formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s')
     c_handler.setFormatter(formatter)
     f_handler.setFormatter(formatter)
 
