@@ -1,0 +1,5 @@
+[Discord]
+bot_token = YOUR_DISCORD_BOT_TOKEN
+user_id = YOUR_DISCORD_USER_ID
+cpu_temp_limit = 80
+cpu_temp_notification_interval = 10

@@ -1,0 +1,2 @@
+/dev/sda1 90
+/mnt/storage 80
