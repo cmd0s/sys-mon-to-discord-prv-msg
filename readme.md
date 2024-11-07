@@ -130,8 +130,8 @@ D:/ 80
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/cmd0s/sys-mon-to-discord-prv-msg.git
+   cd sys-mon-to-discord-prv-msg
    ```
 
 2. **Create a Virtual Environment**
@@ -224,8 +224,6 @@ Sending direct messages to a user on Discord requires setting up a Discord bot, 
 
    - Under the **"Privileged Gateway Intents"** section, enable the **"Message Content Intent"**.
    - This is necessary for the bot to read message content and send direct messages properly.
-
-   ![Enable Message Content Intent](https://i.imgur.com/your_image_link.png) *(Replace with actual image if available)*
 
 5. **Retrieve the Bot Token**
 
