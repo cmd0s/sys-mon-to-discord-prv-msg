@@ -5,6 +5,10 @@
 
 **System Monitoring to Discord Private Messages** is a Python 3 application that monitors specific system events and sends direct messages to a specified Discord user when these events occur. The application is designed to run on both **Ubuntu Server 24.04** and **Windows 10/11**, utilizing a virtual environment (`venv`) for Python dependencies.
 
+### Discord Screenshot
+
+![image](https://github.com/user-attachments/assets/ee6ef6e8-0cbd-4d77-8814-038959c1424d)
+
 ### Features
 
 - **Service Status Monitoring**: Monitors the status of specified system services and sends a notification if their status changes.
@@ -64,8 +68,8 @@ This file contains configuration settings for the Discord bot and CPU temperatur
 [Discord]
 bot_token = YOUR_DISCORD_BOT_TOKEN
 user_id = YOUR_DISCORD_USER_ID
-cpu_temp_limit = 80  # Maximum allowed CPU temperature in degrees Celsius
-cpu_temp_notification_interval = 10  # Notification interval in minutes
+cpu_temp_limit = 80
+cpu_temp_notification_interval = 10
 ```
 
 - **bot_token**: The token for your Discord bot. Replace `YOUR_DISCORD_BOT_TOKEN` with your actual bot token.
@@ -199,6 +203,12 @@ D:/ 80
 
    - The application will start monitoring and send notifications as configured.
    - Log messages will be displayed in the console and saved to `application.log`.
+  
+### Console Screenshot
+
+![image](https://github.com/user-attachments/assets/9fdfbee2-08b0-4666-a05f-dec679f17af6)
+
+After running the program, you should see the following output on the console.
 
 ## Discord Bot Setup
 
@@ -403,7 +413,7 @@ f_handler = RotatingFileHandler('application.log', maxBytes=1048576, backupCount
 
 ## Conclusion
 
-This application provides a flexible and extensible solution for system monitoring with notifications via Discord direct messages. The addition of logging enhances traceability and aids in debugging. By following the installation and configuration steps, including enabling the **"Message Content Intent"** in your Discord bot settings, you can tailor the monitoring to your specific needs and ensure that you're promptly notified of critical system events.
+This application provides a flexible and extensible solution for system monitoring with notifications via Discord direct messages. The addition of logging enhances traceability and aids in debugging.
 
 ## License
 
